@@ -15,7 +15,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - grass
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 10
+    uniqueID: 1683412497
+    locked: 0
+  - name: New Layer
+    uniqueID: 902555113
     locked: 0
