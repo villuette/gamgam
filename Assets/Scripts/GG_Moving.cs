@@ -21,7 +21,7 @@ public class GG_Moving : MonoBehaviour
     void Flip()
     {
         if (Input.GetAxis("Horizontal") > 0)
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
+            transform.localRotation = Quaternion.Euler(0, 0, 0); 
         if (Input.GetAxis("Horizontal") < 0)
             transform.localRotation = Quaternion.Euler(0, 180, 0);
     }
