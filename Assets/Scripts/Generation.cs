@@ -96,7 +96,7 @@ public class Generation : MonoBehaviour
         previousPlatX_lower = earth.transform.position.x;
         previousPlatHalf_lower = platLength / 2.0f;
         previousPlatY_lower = earth.transform.position.y;
-        previousLadderY_lower = 0.64f - 0.03f;
+        previousLadderY_lower = 0.64f + 0.03f;
 
         previousPlatX_upper = earth.transform.position.x;
         previousPlatHalf_upper = platLength / 2.0f;
