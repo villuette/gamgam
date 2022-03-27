@@ -128,6 +128,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6992222391308666610, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
   m_PrefabInstance: {fileID: 813649406}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &290780775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6992222391308666608, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+  m_PrefabInstance: {fileID: 813649406}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &290780776
 Animator:
   serializedVersion: 3
@@ -263,6 +268,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6992222391308666382, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6992222391308666383, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: CHECK_ladder
+      value: 
+      objectReference: {fileID: 1376402908}
+    - target: {fileID: 6992222391308666383, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: check_RADIUS
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6992222391308666383, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: check_ladder
+      value: 
+      objectReference: {fileID: 1376402908}
+    - target: {fileID: 6992222391308666383, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: check_radius
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6992222391308666383, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: checkedLadder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6992222391308666383, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: LadderMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 6992222391308666608, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -319,9 +352,17 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.027228802
       objectReference: {fileID: 0}
+    - target: {fileID: 6992222391308666609, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6992222391308666610, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
       propertyPath: m_Name
       value: GG
+      objectReference: {fileID: 0}
+    - target: {fileID: 6992222391308666610, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6992222391308666610, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
       propertyPath: m_TagString
@@ -335,6 +376,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 3502936808240977266, guid: b6a96de2cef3d4f44a1a1753f7d5398a, type: 3}
+    - target: {fileID: 6992222391308666611, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6992222391308666611, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
@@ -353,9 +398,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7914474307461429812, guid: 57ba21318eeb37145af519ace5b97d04, type: 3}
+      propertyPath: m_DrawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914474307461429812, guid: 57ba21318eeb37145af519ace5b97d04, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7914474307461429813, guid: 57ba21318eeb37145af519ace5b97d04, type: 3}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914474307461429813, guid: 57ba21318eeb37145af519ace5b97d04, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7914474307461429813, guid: 57ba21318eeb37145af519ace5b97d04, type: 3}
       propertyPath: m_LocalPosition.x
@@ -397,8 +454,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7914474307461429814, guid: 57ba21318eeb37145af519ace5b97d04, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7914474307461429835, guid: 57ba21318eeb37145af519ace5b97d04, type: 3}
       propertyPath: m_Name
+      value: ladder
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914474307461429835, guid: 57ba21318eeb37145af519ace5b97d04, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914474307461429835, guid: 57ba21318eeb37145af519ace5b97d04, type: 3}
+      propertyPath: m_TagString
       value: ladder
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -454,6 +523,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1376402907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1376402908}
+  m_Layer: 7
+  m_Name: check_ladder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1376402908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376402907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.135, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 290780775}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1708464207
 GameObject:
@@ -551,7 +650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eefc2651eb9c1614b954933872f519e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 1.07
+  damping: 2
   offset: {x: 0, y: 0.08}
   faceLeft: 0
 --- !u!1 &1717759423
