@@ -21,16 +21,12 @@ public class GG_Moving : MonoBehaviour
         
         Flip();
         rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
-
-    }
-    private void Update()
-    {
-        x = Input.GetAxis("Horizontal");
-        if (Math.Abs(Input.GetAxis("Horizontal")) > 0.1f)
+        if (rb.velocity.x != 0)
             anim.SetInteger("is_running", 1);
-        else
+        if (rb.velocity.x == 0)
             anim.SetInteger("is_running", 0);
     }
+
     void Flip()
     {
         if (Input.GetAxis("Horizontal") > 0)
