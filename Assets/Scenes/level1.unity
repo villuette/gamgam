@@ -268,8 +268,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6992222391308666608, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6992222391308666608, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.64
+      value: 0.51
       objectReference: {fileID: 0}
     - target: {fileID: 6992222391308666608, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
       propertyPath: m_LocalPosition.y
@@ -318,6 +322,14 @@ PrefabInstance:
     - target: {fileID: 6992222391308666610, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
       propertyPath: m_Name
       value: GG
+      objectReference: {fileID: 0}
+    - target: {fileID: 6992222391308666610, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6992222391308666611, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: m_FlipX
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6992222391308666611, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
       propertyPath: m_Sprite
@@ -454,6 +466,7 @@ GameObject:
   - component: {fileID: 1708464210}
   - component: {fileID: 1708464209}
   - component: {fileID: 1708464208}
+  - component: {fileID: 1708464211}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -526,6 +539,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1708464211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708464207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eefc2651eb9c1614b954933872f519e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damping: 1.07
+  offset: {x: 0, y: 0.08}
+  faceLeft: 0
 --- !u!1 &1717759423
 GameObject:
   m_ObjectHideFlags: 0
