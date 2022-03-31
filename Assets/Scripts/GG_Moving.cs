@@ -45,10 +45,10 @@ public class GG_Moving : MonoBehaviour
     public Transform CHECK_ladder;
     public bool checkedLadder;
     public LayerMask LadderMask;
-    //void CheckingLadder()
-    //{
-       // checkedLadder = Physics2D.OverlapPoint(CHECK_ladder.position, LadderMask);
-   // }
+    void CheckingLadder()
+    {
+        checkedLadder = Physics2D.OverlapPoint(CHECK_ladder.position, LadderMask);
+    }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
