@@ -703,6 +703,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6992222391308666382, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6992222391308666382, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
@@ -817,6 +821,10 @@ PrefabInstance:
 =======
       value: 35
 >>>>>>> villuet_branch
+      objectReference: {fileID: 0}
+    - target: {fileID: 6992222391308666611, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6992222391308666611, guid: c3eefcf10a0fc3c499675f2ade02e549, type: 3}
       propertyPath: m_WasSpriteAssigned
